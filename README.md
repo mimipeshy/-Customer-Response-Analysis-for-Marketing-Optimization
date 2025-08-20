@@ -43,6 +43,9 @@ The dataset contained customer-level marketing data with the following fields:
 ![heatmap spend by income](images/spendvsincome.PNG)
 -  Scatter Plot: Spend vs Recency (colored by Campaign Response) 
 ![scatter plot spend vs recency](images/spendbyrecency.PNG)
+- Bar Chart: Response Rate by Income bracket
+![bar chart response by income bracket](images/responseratebyincome.PNG)
+
 
 <!-- - 🎛️ Interactivity: Heatmap-as-filter + dropdown filters   -->
 
