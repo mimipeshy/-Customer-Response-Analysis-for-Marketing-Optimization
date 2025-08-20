@@ -34,15 +34,19 @@ The dataset contained customer-level marketing data with the following fields:
 - Used pivot tables & charts to explore patterns.  
 - Checked distributions across age, income, and recency bins.  
 
-<!-- ### 3. **Dashboard Development (Tableau)**  
-- 📌 KPI Cards: Total Customers, Total Spend, Response Rate, Avg Recency  
-- 🔥 Heatmap: Spend by Income Bracket × Recency Bin  
+### 3. **Dashboard Development (Tableau)**  
+-  KPI Cards: Total Customers, Total Spend, Response Rate, Avg Recency 
+![kpi cards](images/Capture.PNG)
+
+
+-  Heatmap: Spend by Income Bracket × Recency Bin  
+![heatmap spend by income](images/spendvsincome.PNG)
 - 🎯 Scatter Plot: Spend vs Recency (colored by Campaign Response)  
 - 🎛️ Interactivity: Heatmap-as-filter + dropdown filters  
 
 ---
 
-## 📈 Key Insights  
+<!-- ## 📈 Key Insights  
 1. **High-income & recent customers contribute the most spend** → campaigns targeting this group are most profitable.  
 2. **Response rates decline sharply with higher recency** → engagement drops the longer customers stay inactive.  
 3. **Middle-income segments show moderate spend but weaker response rates** → require tailored retention efforts.  
