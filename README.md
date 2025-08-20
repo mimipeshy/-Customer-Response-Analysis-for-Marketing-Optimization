@@ -94,5 +94,11 @@ The dataset contained customer-level marketing data with the following fields:
 
 ---
 
-✍️ *Author: Peris Ndanu*  
-📅 *Completed: August 2025*  
+## Author
+This project was created as part of a professional portfolio to demonstrate practical financial analytics using Excel & Tableau
+
+- GitHub: https://github.com/mimipeshy
+- LinkedIn: [Peris Ndanu](https://www.linkedin.com/in/peris-ndanu/)
+
+© 2025 | Peris Ndanu | Data Analytics Portfolio |
+  
