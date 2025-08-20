@@ -39,19 +39,28 @@ The dataset contained customer-level marketing data with the following fields:
 ![kpi cards](images/Capture.PNG)
 
 
--  Heatmap: Spend by Income Bracket × Recency Bin  
+-  **Heatmap**: Spend by Income Bracket × Recency Bin  
 ![heatmap spend by income](images/spendvsincome.PNG)
+
+   Insights => **High-income customers with recent activity are the biggest spenders.Across all income brackets, spend declines as recency increases.Income and recency together strongly predict spending. High-value, recent customers should be prioritized.**
+
 -  Scatter Plot: Spend vs Recency (colored by Campaign Response) 
 ![scatter plot spend vs recency](images/spendbyrecency.PNG)
+
+   Insights=> **Responders cluster around high spend and low recency, showing that active, high-spend customers are most engaged.Non-responders dominate long-recency, low-spend regions, highlighting disengagement.Outreach timing is critical: high-spend customers respond best when targeted shortly after activity.**
 - Bar Chart: Response Rate by Income bracket
 ![bar chart response by income bracket](images/responseratebyincome.PNG)
 
 - Bar Chart: Response Rate by Recency Bin
 ![bar chart response by recency bin](images/recencybin.PNG)
 
-<!-- ## 📈 Key Insights  
-1. **High-income & recent customers contribute the most spend** → campaigns targeting this group are most profitable.  
-2. **Response rates decline sharply with higher recency** → engagement drops the longer customers stay inactive.  
+## 📈 Key Chart Insights  
+1. **High-income & recent customers contribute the most spend** 
+- These customers generate the highest revenue and respond well to campaigns.
+- Campaigns targeting this group are most profitable.  
+2. **Response rates decline sharply with higher recency** 
+- The longer customers stay inactive, the less likely they are to engage again.
+
 3. **Middle-income segments show moderate spend but weaker response rates** → require tailored retention efforts.  
 4. **Responders cluster at lower recency & higher spend** → outreach timing is critical for campaign success.  
 5. **Non-responders dominate long-recency bins** → these customers represent churn risk.  
@@ -78,4 +87,4 @@ The dataset contained customer-level marketing data with the following fields:
 ---
 
 ✍️ *Author: Peris Ndanu*  
-📅 *Completed: August 2025*   -->
+📅 *Completed: August 2025*  
