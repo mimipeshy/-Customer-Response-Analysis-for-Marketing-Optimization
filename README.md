@@ -35,37 +35,47 @@ The dataset contained customer-level marketing data with the following fields:
 - Checked distributions across age, income, and recency bins.  
 
 ### 3. **Dashboard Development (Tableau)**  
--  KPI Cards: Total Customers, Total Spend, Response Rate, Avg Recency 
-![kpi cards](images/Capture.PNG)
+- 📌 KPI Cards: Total Customers, Total Spend, Response Rate, Avg Recency  
+- 🔥 Heatmap: Spend by Income Bracket × Recency Bin  
+- 🎯 Scatter Plot: Spend vs Recency (colored by Campaign Response)  
+- 📊 Bar/Line Charts: Campaign Response by Age, Income, Recency  
+- 🎛️ Interactivity: Heatmap-as-filter + dropdown filters 
 
+## Key Insights  
+- **High-income + recent customers = top spenders**  
+  These customers generate the highest revenue and respond well to campaigns.  
 
+- **Recency drives response rates**  
+  The longer customers stay inactive, the less likely they are to engage again.  
+
+- **Middle-income customers = retention opportunity**  
+  They spend moderately but show weaker response rates → need targeted reactivation strategies.  
+
+- **Responders = high spend + low recency**  
+  Active customers are most responsive when campaigns are timed correctly.  
+
+- **Non-responders = long recency risk**  
+  Customers inactive for long periods show low engagement and higher churn risk.  
+
+## Chart Insights  
 -  **Heatmap**: Spend by Income Bracket × Recency Bin  
 ![heatmap spend by income](images/spendvsincome.PNG)
 
-   Insights => **High-income customers with recent activity are the biggest spenders.Across all income brackets, spend declines as recency increases.Income and recency together strongly predict spending. High-value, recent customers should be prioritized.**
+   Insights => **High-income customers with recent activity are the biggest spenders.Across all income brackets, spend declines as recency increases.Income and recency together strongly predict spending.**
 
 -  Scatter Plot: Spend vs Recency (colored by Campaign Response) 
 ![scatter plot spend vs recency](images/spendbyrecency.PNG)
 
-   Insights=> **Responders cluster around high spend and low recency, showing that active, high-spend customers are most engaged.Non-responders dominate long-recency, low-spend regions, highlighting disengagement.Outreach timing is critical: high-spend customers respond best when targeted shortly after activity.**
+   Insights=> **Responders cluster around high spend and low recency, showing that active, high-spend customers are most engaged.Non-responders dominate long-recency, low-spend regions, highlighting disengagement.**
 - Bar Chart: Response Rate by Income bracket
+
 ![bar chart response by income bracket](images/responseratebyincome.PNG)
+    Insights=>**Higher income brackets show stronger response rates, particularly when paired with recent activity.Low-income groups are less responsive overall, even when recently active.**
 
 - Bar Chart: Response Rate by Recency Bin
+
 ![bar chart response by recency bin](images/recencybin.PNG)
-
-## 📈 Key Chart Insights  
-1. **High-income & recent customers contribute the most spend** 
-- These customers generate the highest revenue and respond well to campaigns.
-- Campaigns targeting this group are most profitable.  
-2. **Response rates decline sharply with higher recency** 
-- The longer customers stay inactive, the less likely they are to engage again.
-
-3. **Middle-income segments show moderate spend but weaker response rates** → require tailored retention efforts.  
-4. **Responders cluster at lower recency & higher spend** → outreach timing is critical for campaign success.  
-5. **Non-responders dominate long-recency bins** → these customers represent churn risk.  
-
----
+    Insights => **Response rates are highest among customers with recent activity (0–30 days).Engagement drops steadily as recency increases, with the lowest response in the 91+ days group**
 
 ## 🛠️ Tools Used  
 - **Excel** → Data cleaning, transformation, feature engineering, initial EDA  
