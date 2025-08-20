@@ -68,20 +68,18 @@ The dataset contained customer-level marketing data with the following fields:
 
    Insights=> **Responders cluster around high spend and low recency, showing that active, high-spend customers are most engaged.Non-responders dominate long-recency, low-spend regions, highlighting disengagement.**
 - Bar Chart: Response Rate by Income bracket
-
-![bar chart response by income bracket](images/responseratebyincome.PNG)
+    ![bar chart response by income bracket](images/responseratebyincome.PNG)
     Insights=>**Higher income brackets show stronger response rates, particularly when paired with recent activity.Low-income groups are less responsive overall, even when recently active.**
 
 - Bar Chart: Response Rate by Recency Bin
-
-![bar chart response by recency bin](images/recencybin.PNG)
+    ![bar chart response by recency bin](images/recencybin.PNG)
+    
     Insights => **Response rates are highest among customers with recent activity (0–30 days).Engagement drops steadily as recency increases, with the lowest response in the 91+ days group**
 
 ## 🛠️ Tools Used  
 - **Excel** → Data cleaning, transformation, feature engineering, initial EDA  
-- **Tableau** → Dashboard design and visualization  
+- **Tableau Public** → Dashboard design and visualization  
 
----
 
 ## 📊 Dashboard  
 🔗 [View the Interactive Tableau Dashboard](#) *(Insert your Tableau Public link here)*  
