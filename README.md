@@ -16,7 +16,7 @@ The dataset contained customer-level marketing data with the following fields:
 - Recency (days since last engagement)  
 - Total Spend  
 
-<!-- 🔧 Additional engineered fields:  
+## Additional engineered fields:  
 - **Income Bracket** (Low, Mid, High, Very High)  
 - **Age Group** (Young Adult, Adult, Senior)  
 - **Recency Bin** (0–30, 31–60, 61–90, 91+ days)  
@@ -24,7 +24,7 @@ The dataset contained customer-level marketing data with the following fields:
 
 ---
 
-## ⚙️ Process  
+## Process  
 ### 1. **Data Cleaning & Preparation (Excel)**  
 - Handled missing values in `Income`.  
 - Created new features (`Income Bracket`, `Age Group`, `Recency Bin`).  
@@ -34,7 +34,7 @@ The dataset contained customer-level marketing data with the following fields:
 - Used pivot tables & charts to explore patterns.  
 - Checked distributions across age, income, and recency bins.  
 
-### 3. **Dashboard Development (Tableau)**  
+<!-- ### 3. **Dashboard Development (Tableau)**  
 - 📌 KPI Cards: Total Customers, Total Spend, Response Rate, Avg Recency  
 - 🔥 Heatmap: Spend by Income Bracket × Recency Bin  
 - 🎯 Scatter Plot: Spend vs Recency (colored by Campaign Response)  
