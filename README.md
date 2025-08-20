@@ -82,7 +82,7 @@ The dataset contained customer-level marketing data with the following fields:
 
 
 ## 📊 Dashboard  
-🔗 [View the Interactive Tableau Dashboard](#) *(Insert your Tableau Public link here)*  
+🔗 [View the Interactive Tableau Dashboard](https://public.tableau.com/views/MarketingCampaignDashboard_17549912420490/Dashboard2_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ---
 
