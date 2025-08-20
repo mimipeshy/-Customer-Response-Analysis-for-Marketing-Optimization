@@ -46,10 +46,8 @@ The dataset contained customer-level marketing data with the following fields:
 - Bar Chart: Response Rate by Income bracket
 ![bar chart response by income bracket](images/responseratebyincome.PNG)
 
-
-<!-- - 🎛️ Interactivity: Heatmap-as-filter + dropdown filters   -->
-
----
+- Bar Chart: Response Rate by Recency Bin
+![bar chart response by recency bin](images/recencybin.PNG)
 
 <!-- ## 📈 Key Insights  
 1. **High-income & recent customers contribute the most spend** → campaigns targeting this group are most profitable.  
